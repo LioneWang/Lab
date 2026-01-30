@@ -1,0 +1,48 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            wakgwnfxqsr2o1bwgpsbmn3cx2l9hzjx:
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "50073341952"
+                        used: "14209007616"
+                email: jw4807@columbia.edu
+                executable: /home/jiawei-wang/miniconda3/envs/rdl/bin/python
+                git:
+                    commit: 89efc67834f4c0fb96b5590c5314d206b642f99c
+                    remote: https://github.com/LioneWang/Lab.git
+                gpu: NVIDIA GeForce RTX 5070 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 8960
+                      memoryTotal: "17094934528"
+                      name: NVIDIA GeForce RTX 5070 Ti
+                      uuid: GPU-f22870eb-1543-b95d-fd68-a4b027994ea2
+                host: ubuntu
+                memory:
+                    total: "33287499776"
+                os: Linux-6.14.0-061400-generic-x86_64-with-glibc2.39
+                program: <python with no main file>
+                python: CPython 3.9.24
+                root: /home/jiawei-wang/workspace/Lab/DL
+                startedAt: "2026-01-29T17:40:14.617220Z"
+                writerId: wakgwnfxqsr2o1bwgpsbmn3cx2l9hzjx
+        m: []
+        python_version: 3.9.24
+        t:
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+            "4": 3.9.24
+            "5": 0.24.0
+            "8":
+                - 1
+            "12": 0.24.0
+            "13": linux-x86_64

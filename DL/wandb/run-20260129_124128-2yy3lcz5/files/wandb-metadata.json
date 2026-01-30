@@ -1,0 +1,38 @@
+{
+  "os": "Linux-6.14.0-061400-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.9.24",
+  "startedAt": "2026-01-29T17:41:28.636096Z",
+  "program": "<python with no main file>",
+  "git": {
+    "remote": "https://github.com/LioneWang/Lab.git",
+    "commit": "89efc67834f4c0fb96b5590c5314d206b642f99c"
+  },
+  "email": "jw4807@columbia.edu",
+  "root": "/home/jiawei-wang/workspace/Lab/DL",
+  "host": "ubuntu",
+  "executable": "/home/jiawei-wang/miniconda3/envs/rdl/bin/python",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "50073341952",
+      "used": "14209024000"
+    }
+  },
+  "memory": {
+    "total": "33287499776"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 5070 Ti",
+      "memoryTotal": "17094934528",
+      "cudaCores": 8960,
+      "architecture": "Blackwell",
+      "uuid": "GPU-f22870eb-1543-b95d-fd68-a4b027994ea2"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "gdj0m4u5j7ze3jx62oghecdd9htae0mi"
+}

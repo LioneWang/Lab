@@ -1,0 +1,75 @@
+cuda
+{'num_workers': 1, 'pin_memory': True}
+/home/jiawei-wang/miniconda3/envs/rdl/lib/python3.9/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/jiawei-wang/miniconda3/envs/rdl/lib/python3.9/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+50000
+781
+782
+10000
+312
+313
+2026-01-29 12:58:22.474937, 200/782: 1.6899, acc: 0.34375
+2026-01-29 12:58:31.707841, 400/782: 1.5326, acc: 0.484375
+2026-01-29 12:58:40.895879, 600/782: 1.7243, acc: 0.375
+[34m[1mwandb[0m: [33mWARNING[0m Data passed to `wandb.Image` should consist of values in the range [0, 255], image data will be normalized to this range, but behavior will be removed in a future version of wandb.
+
+2026-01-29 12:59:01.442352, epoch: 1, train_loss: 1319.7149, train_acc: 0.37, test_loss: 449.7970, test_acc: 0.47
+
+2026-01-29 12:59:10.717875, 200/782: 1.4983, acc: 0.375
+2026-01-29 12:59:20.010311, 400/782: 1.6901, acc: 0.359375
+2026-01-29 12:59:29.211611, 600/782: 1.3040, acc: 0.453125
+
+2026-01-29 12:59:48.385438, epoch: 2, train_loss: 1127.1766, train_acc: 0.47, test_loss: 414.7419, test_acc: 0.52
+
+2026-01-29 12:59:57.641461, 200/782: 1.3313, acc: 0.484375
+2026-01-29 13:00:06.764406, 400/782: 1.1219, acc: 0.484375
+2026-01-29 13:00:15.908261, 600/782: 0.9695, acc: 0.640625
+
+2026-01-29 13:00:34.373662, epoch: 3, train_loss: 958.7815, train_acc: 0.55, test_loss: 367.6023, test_acc: 0.56
+
+2026-01-29 13:00:43.636508, 200/782: 1.1013, acc: 0.515625
+2026-01-29 13:00:52.810896, 400/782: 0.8770, acc: 0.671875
+2026-01-29 13:01:01.997144, 600/782: 0.9874, acc: 0.625
+
+2026-01-29 13:01:19.491115, epoch: 4, train_loss: 850.1446, train_acc: 0.61, test_loss: 338.6742, test_acc: 0.61
+
+2026-01-29 13:01:28.740971, 200/782: 0.7799, acc: 0.703125
+2026-01-29 13:01:37.935056, 400/782: 0.8391, acc: 0.640625
+2026-01-29 13:01:47.106160, 600/782: 1.1951, acc: 0.625
+
+2026-01-29 13:02:04.139069, epoch: 5, train_loss: 764.5338, train_acc: 0.65, test_loss: 310.2062, test_acc: 0.64
+
+2026-01-29 13:02:13.443888, 200/782: 0.9605, acc: 0.640625
+2026-01-29 13:02:22.628775, 400/782: 0.9197, acc: 0.6875
+2026-01-29 13:02:31.911108, 600/782: 0.9695, acc: 0.625
+
+2026-01-29 13:02:48.073917, epoch: 6, train_loss: 686.8184, train_acc: 0.69, test_loss: 280.7060, test_acc: 0.68
+
+2026-01-29 13:02:57.439406, 200/782: 0.8199, acc: 0.640625
+2026-01-29 13:03:06.730393, 400/782: 0.7281, acc: 0.71875
+2026-01-29 13:03:16.083776, 600/782: 0.8858, acc: 0.71875
+
+2026-01-29 13:03:32.306397, epoch: 7, train_loss: 624.7286, train_acc: 0.72, test_loss: 276.9822, test_acc: 0.69
+
+2026-01-29 13:03:41.546086, 200/782: 0.8871, acc: 0.703125
+2026-01-29 13:03:50.858968, 400/782: 0.6559, acc: 0.734375
+2026-01-29 13:04:00.041618, 600/782: 0.5964, acc: 0.8125
+
+2026-01-29 13:04:16.066896, epoch: 8, train_loss: 575.2853, train_acc: 0.74, test_loss: 266.0777, test_acc: 0.70
+
+2026-01-29 13:04:25.384047, 200/782: 0.9463, acc: 0.65625
+2026-01-29 13:04:34.618184, 400/782: 0.8173, acc: 0.71875
+2026-01-29 13:04:43.800862, 600/782: 0.5547, acc: 0.796875
+
+2026-01-29 13:04:59.836348, epoch: 9, train_loss: 518.8985, train_acc: 0.77, test_loss: 239.8658, test_acc: 0.73
+
+2026-01-29 13:05:09.243094, 200/782: 0.5461, acc: 0.8125
+2026-01-29 13:05:18.463288, 400/782: 0.8339, acc: 0.6875
+2026-01-29 13:05:27.664300, 600/782: 0.6506, acc: 0.765625
+
+2026-01-29 13:05:43.534456, epoch: 10, train_loss: 472.1876, train_acc: 0.79, test_loss: 238.1178, test_acc: 0.74
+
+2026-01-29 13:05:52.946312, 200/782: 0.5001, acc: 0.828125
+2026-01-29 13:06:02.182424, 400/782: 0.6631, acc: 0.8125

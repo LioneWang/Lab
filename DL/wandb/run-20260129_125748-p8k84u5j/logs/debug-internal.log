@@ -1,0 +1,12 @@
+{"time":"2026-01-29T12:57:49.502211899-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.0"}
+{"time":"2026-01-29T12:57:49.704566401-05:00","level":"INFO","msg":"stream: created new stream","id":"p8k84u5j"}
+{"time":"2026-01-29T12:57:49.7046076-05:00","level":"INFO","msg":"handler: started","stream_id":"p8k84u5j"}
+{"time":"2026-01-29T12:57:49.704678528-05:00","level":"INFO","msg":"stream: started","id":"p8k84u5j"}
+{"time":"2026-01-29T12:57:49.704685398-05:00","level":"INFO","msg":"writer: started","stream_id":"p8k84u5j"}
+{"time":"2026-01-29T12:57:49.704695877-05:00","level":"INFO","msg":"sender: started","stream_id":"p8k84u5j"}
+{"time":"2026-01-29T13:05:50.37222316-05:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/lione-wang/Lab-DL/p8k84u5j/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2026-01-29T13:06:04.850256681-05:00","level":"INFO","msg":"stream: closing","id":"p8k84u5j"}
+{"time":"2026-01-29T13:06:05.433049359-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-01-29T13:06:05.733332729-05:00","level":"INFO","msg":"handler: closed","stream_id":"p8k84u5j"}
+{"time":"2026-01-29T13:06:05.733415016-05:00","level":"INFO","msg":"sender: closed","stream_id":"p8k84u5j"}
+{"time":"2026-01-29T13:06:05.733421766-05:00","level":"INFO","msg":"stream: closed","id":"p8k84u5j"}
