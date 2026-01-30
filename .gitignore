@@ -1,6 +1,7 @@
 ./DL/wandb
-.ipynb_checkpoints
+**/.ipynb_checkpoints/
 __pycache__/
 *.pyc
 .DS_Store
 .vscode/
+**/data/
