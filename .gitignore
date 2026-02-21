@@ -2,7 +2,7 @@
 # 匹配任何目录下名为 data 的文件夹及其内容
 **/data/
 **/dataset/
-
+**/wandb/
 # --- 排除特定后缀的权重和模型文件 ---
 # 排除 PyTorch 和 TensorFlow 常用的模型格式
 *.ckpt
