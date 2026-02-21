@@ -1,7 +1,23 @@
-./DL/wandb
-**/.ipynb_checkpoints/
-__pycache__/
-*.pyc
-.DS_Store
-.vscode/
+# --- 排除所有含 data 的文件夹 ---
+# 匹配任何目录下名为 data 的文件夹及其内容
 **/data/
+
+# --- 排除特定后缀的权重和模型文件 ---
+# 排除 PyTorch 和 TensorFlow 常用的模型格式
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.h5
+*.onnx
+
+# --- 排除深度学习常见的缓存和日志 ---
+**/__pycache__/
+*.log
+**/runs/
+**/lightning_logs/
+
+# --- 排除系统及环境变量文件 ---
+.env
+.DS_Store
+.ipynb_checkpoints/
